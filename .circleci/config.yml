@@ -1,7 +1,7 @@
 version: 2.1 
 jobs:   
  build:     
-  working_directory: ~/CICD_Demo   
+  working_directory: ~/CICD_Demo    
   docker:       
     - image: cimg/node:18.7.0     
   steps:       
