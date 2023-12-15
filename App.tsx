@@ -11,7 +11,7 @@ return (
      setMessage("Hello Tester");           
    },Math.floor(Math.random() * 200));         
   }}       
- />          
+ />           
  {message && (         
    <Text 
     style={styles.messageText} 
